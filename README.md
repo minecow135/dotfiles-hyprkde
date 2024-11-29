@@ -7,7 +7,7 @@ dotfiles used for arch with hyprland and kde plasma with SDDM
 - hyprland
 - kde plasma
 
-# Commands run
+## Commands run
 ```bash
 sudo pacman -S plasma-desktop 
 sudo systemctl enable sddm
@@ -24,6 +24,6 @@ sudo pacman -S rofi
 sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct pcmanfm-gtk3 lxappearance hyprlock breeze-gtk
 ```
 
-# dotfiles used
+## dotfiles used
 - https://github.com/lr-tech/rofi-themes-collection
 - https://github.com/end-4/dots-hyprland.git
