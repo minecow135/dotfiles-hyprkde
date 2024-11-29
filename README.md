@@ -27,3 +27,4 @@ sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct pc
 ## dotfiles used
 - https://github.com/lr-tech/rofi-themes-collection
 - https://github.com/end-4/dots-hyprland.git
+- https://github.com/ChrisTitusTech/hyprland-titus
