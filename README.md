@@ -22,6 +22,7 @@ yay -S hyprland-git
 sudo pacman -S vim vscode alacritty firefox
 sudo pacman -S rofi
 sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct pcmanfm-gtk3 hyprlock breeze-gtk nwg-look
+yay -S  menu-calc
 ```
 
 ## dotfiles used
