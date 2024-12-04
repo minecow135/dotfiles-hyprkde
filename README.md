@@ -21,7 +21,7 @@ makepkg -si
 yay -S hyprland-git
 sudo pacman -S vim vscode alacritty firefox
 sudo pacman -S rofi
-sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct pcmanfm-gtk3 hyprlock breeze-gtk nwg-look rofi-calc zsh qt5-graphicaleffects flatpak python-beautifulsoup4 ttf-recursive-nerd noto-fonts
+sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct pcmanfm-gtk3 hyprlock breeze-gtk nwg-look rofi-calc zsh qt5-graphicaleffects flatpak python-beautifulsoup4 ttf-recursive-nerd
 yay -S wdisplays qt5-wayland qt6-wayland ttf-ms-win11-auto
 yay -S bauh
 ```
