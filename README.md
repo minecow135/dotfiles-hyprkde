@@ -30,7 +30,8 @@ sudo pacman -S remmina freerdp
 yay -S remmina-plugin-folder remmina-plugin-open
 ```
 
-## dotfiles used
+## dotfiles and themes used
 - https://github.com/lr-tech/rofi-themes-collection
 - https://github.com/end-4/dots-hyprland.git
 - https://github.com/ChrisTitusTech/hyprland-titus
+- https://github.com/Keyitdev/sddm-astronaut-theme
