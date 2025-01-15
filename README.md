@@ -25,6 +25,7 @@ sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct qt
 yay -S wdisplays qt5-wayland qt6-wayland ttf-ms-win11-auto
 yay -S bauh
 sudo pacman -S pcmanfm-gtk3 avfs gvfs file-roller gvfs-afc gvfs-dnssd gvfs-goa gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-onedrive gvfs-smb gvfs-wsdd
+sudo pacman -S xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 
 sudo pacman -S remmina freerdp
 yay -S remmina-plugin-folder remmina-plugin-open
