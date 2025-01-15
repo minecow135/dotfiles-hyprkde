@@ -12,7 +12,7 @@ dotfiles used for arch with hyprland and kde plasma with SDDM
 sudo pacman -S sddm plasma-desktop 
 sudo systemctl enable sddm
 sudo pacman -S kdeplasma-addons plasma-browser-integration plasma-disks bluedevil kde-cli-tools kde-gtk-config kpipewire plasma-nm plasma-pa plasma-vault powerdevil kscreen
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed base-devel git man-db
 mkdir tmp
 cd tmp/
 git clone https://aur.archlinux.org/yay.git
