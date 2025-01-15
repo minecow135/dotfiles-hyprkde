@@ -36,3 +36,4 @@ yay -S remmina-plugin-folder remmina-plugin-open
 - https://github.com/end-4/dots-hyprland.git
 - https://github.com/ChrisTitusTech/hyprland-titus
 - https://github.com/Keyitdev/sddm-astronaut-theme
+- https://github.com/catppuccin/catppuccin
