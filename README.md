@@ -20,7 +20,7 @@ cd yay
 makepkg -si
 yay -S hyprland-git
 sudo pacman -S vim neovim vscode alacritty firefox
-sudo pacman -S rofi-wayland hyprpolkitagent
+sudo pacman -S rofi-wayland hyprpolkitagent qt5-wayland qt6-wayland
 sudo pacman -S kwallet-pam network-manager-applet kwalletmanager waybar qt6ct qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg hyprlock breeze-gtk nwg-look rofi-calc rofimoji rofi-rbw qt5-graphicaleffects flatpak python-beautifulsoup4 ttf-recursive-nerd jq hyprpaper
 yay -S wdisplays qt5-wayland qt6-wayland ttf-ms-win11-auto
 yay -S bauh
