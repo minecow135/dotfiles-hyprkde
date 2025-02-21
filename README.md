@@ -29,6 +29,7 @@ sudo pacman -S pcmanfm-gtk3 avfs gvfs file-roller gvfs-afc gvfs-dnssd gvfs-goa g
 sudo pacman -S xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 sudo pacman -S swaync cups
 sudo systemctl enable cups
+yay -S grimblast-git
 
 sudo pacman -S zsh zsh-autosuggestions thefuck tmux zoxide fzf
 sudo pacman -S fastfetch hyfetch
