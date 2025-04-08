@@ -34,8 +34,13 @@ yay -S grimblast-git
 sudo pacman -S zsh zsh-autosuggestions thefuck tmux zoxide fzf
 sudo pacman -S fastfetch hyfetch
 
-sudo pacman -S remmina freerdp
+sudo pacman -S remmina freerdp chromium tailscale
 yay -S remmina-plugin-folder remmina-plugin-open
+
+sudo systemctl enable tailscaled
+sudo systemctl start tailscaled
+sudo tailscale up --accept-routes
+sudo tailscale set --operator=$USER
 ```
 
 ## dotfiles and themes used
