@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[user]
+	email = git@awdawd.eu
+	name = awd
+	signingkey = ~/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[push]
+	gpgSign = true
