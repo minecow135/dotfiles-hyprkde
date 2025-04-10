@@ -1,0 +1,107 @@
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "Font Awesome 6 Free Solid";
+  font-size: 12px;
+  font-weight: 600;
+}
+
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(0,0,0,0);
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background-color: rgba(0,43,51,0.85);
+  margin: 5px 10px 0;
+  border-radius: 10px;
+}
+
+#workspaces button,
+#clock,
+#wireplumber,
+#custom-power,
+#tray,
+#window,
+#battery,
+#idle_inhibitor,
+#mpris {
+  min-height: 0;
+  min-width: 0;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+#workspaces button {
+  color: #cdd6f4;
+  border: 0;
+}
+
+#workspaces button:hover {
+  color: #5190f5;
+}
+
+#workspaces button.active {
+  color: #89b4fa;
+}
+
+#workspaces button.urgent {
+  color: #f38ba8;
+}
+
+#mpris.playing {
+  color: #a6e3a1;
+}
+
+#mpris.paused {
+  color: #9399b2;
+}
+
+#custom-sep {
+  padding: 0px;
+  color: #585b70;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#clock {
+  color: #74c7ec;
+}
+
+#window {
+  color: #a6e3a1;
+}
+
+#wireplumber {
+  color: #b4befe;
+}
+
+#wireplumber.muted {
+  color: #a6adc8;
+}
+
+#custom-power {
+  color: #f38ba8;
+}
+
+#battery {
+  color: #95e38f;
+}
+
+#idle_inhibitor.activated {
+  color: #b4befe;
+}
+
+#idle_inhibitor.deactivated {
+  color: #a6adc8;
+}
+
+tooltip {
+  background-color: #181825;
+  border: 2px solid #89b4fa;
+}

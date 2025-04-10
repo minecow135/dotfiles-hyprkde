@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+rofi \
+	-show combi \
+	-combi-modes drun,ssh \
+	-modi combi,run,drun,ssh \
+	-scroll-method 0 \
+	-drun-match-fields all \
+	-drun-display-format "{name}" \
+	-no-drun-show-actions \
+	-no-parse-known-hosts \
+	-terminal alacritty \
+	-theme "$HOME"/.config/rofi/config/launcher.rasi
