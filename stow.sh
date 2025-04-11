@@ -14,7 +14,6 @@ git submodule update
 # what directories should be installable by all users including the root user
 base=(
     home
-    scripts
 )
 
 # folders that should, or only need to be installed for a local user
