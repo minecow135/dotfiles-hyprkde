@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 # make sure we have pulled in and updated any submodules
+
+git fetch
+git pull
+
 git submodule init
 git submodule update
 
