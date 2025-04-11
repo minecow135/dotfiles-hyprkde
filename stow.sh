@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
-# make sure we have pulled in and updated any submodules
+dir=$PWD
+cd $DOTFILEDIR
 
+# fetch new updates
 git fetch
 git pull
 
+# make sure we have pulled in and updated any submodules
 git submodule init
 git submodule update
 
@@ -47,6 +50,8 @@ for app in ${useronly[@]}; do
         stowit "${HOME}" $app 
     fi
 done
+
+cd $dir
 
 echo ""
 echo "##### ALL DONE"
