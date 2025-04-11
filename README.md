@@ -12,7 +12,7 @@ dotfiles used for arch with hyprland and kde plasma with SDDM
 install apps
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/02_installApps.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/parts/02_installApps.sh
 ```
 
 ## dotfiles and themes used
