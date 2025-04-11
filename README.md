@@ -9,13 +9,27 @@ dotfiles used for arch with hyprland and kde plasma with SDDM
 
 ## Install
 
+### Install arch, apps, and dotfiles
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/archinstall.sh
+```
+
 ### Install apps and dotfiles
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/apps.sh
 ```
 
-### Install apps only
+### Install parts
+
+#### archinstall script
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/parts/01_archinstall.sh
+```
+
+#### Install apps only
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/minecow135/dotfiles-hyprkde/master/install/parts/02_installApps.sh
