@@ -41,6 +41,8 @@ sudo systemctl enable tailscaled
 sudo systemctl start tailscaled
 sudo tailscale up --accept-routes
 sudo tailscale set --operator=$USER
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
 ```
 
 ## dotfiles and themes used
