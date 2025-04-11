@@ -63,7 +63,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=$HOME/.config/oh-my-zsh_custom/
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -111,6 +111,6 @@ zstyle ':omz:plugins:alias-finder' autoload yes
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f $ZSH/.p10k.zsh ]] || source $ZSH/.p10k.zsh
+[[ ! -f $HOME/.config/p10k.zsh ]] || source $HOME/.config/p10k.zsh
 
 eval $(thefuck --alias)

@@ -1,0 +1,3 @@
+hyfetch
+
+export EDITOR='vim'
