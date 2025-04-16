@@ -2,8 +2,8 @@
 
 dir=${DOTFILEDIR:-"$HOME/.dotfiles/"}
 
-appDir=$dir/install/parts/apps/afterstow/
-InstalledDir=$dir/install/parts/installedApps/install/
+appDir=$dir/install/parts/apps/afterstow
+InstalledDir=$dir/install/parts/installedApps/afterstow
 
 if [ ! -d $InstalledDir ]
 then
