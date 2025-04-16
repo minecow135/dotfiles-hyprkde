@@ -3,7 +3,7 @@ dotdir=${DOTFILEDIR:-"$HOME/.dotfiles/"}
 app="mixingstation"
 url=""https://mixingstation.app/backend/api/web/download/update/mixing-station-pc/release
 format="zip"
-executable=
+executable=mixingstation.sh
 folder=true
 
 if [ -d $dir/$app ]
@@ -42,7 +42,13 @@ fi
 
 if [ $executable ] && [ ! -f $dir/bin/$executable ]
 then
-  ln -s "$dir/$app/$executable" $dir/bin/$app
+  if [ -f $dir/$app/$executable ]
+  then
+    ln -s "$dir/$app/$executable" "$dir/bin/$app"
+  elif [ -f "$dotdir/launch/$app/$executable" ]
+  then
+    ln -s "$dotdir/launch/$app/$executable" $dir/bin/$app
+  fi
 fi
 
 #rm -rf /tmp/$app.$format
