@@ -10,7 +10,7 @@ then
   mkdir -p $InstalledDir
 fi
 
-for file in $appDir*
+for file in $appDir/*
 do   
   if [ -f "$file" ]
   then 
