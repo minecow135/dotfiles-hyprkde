@@ -1,2 +1,2 @@
-flatpak install -uy flathub io.github.martinrotter.rssguard
+sh ${DOTFILEDIR:-"$HOME/.dotfiles/"}/install/parts/lib/installflatpak.sh io.github.martinrotter.rssguard rssguard
 

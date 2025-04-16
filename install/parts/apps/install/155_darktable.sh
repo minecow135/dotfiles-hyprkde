@@ -1,2 +1,2 @@
-flatpak install -uy flathub org.darktable.Darktable
+sh ${DOTFILEDIR:-"$HOME/.dotfiles/"}/install/parts/lib/installflatpak.sh org.darktable.Darktable darktable
 
