@@ -2,8 +2,8 @@
 
 dir=${DOTFILEDIR:-"$HOME/.dotfiles/"}
 
-appDir=$dir/install/parts/apps/
-InstalledDir=$dir/install/parts/installedApps/
+appDir=$dir/install/parts/apps/install/
+InstalledDir=$dir/install/parts/installedApps/install/
 
 for file in $appDir*
 do   
