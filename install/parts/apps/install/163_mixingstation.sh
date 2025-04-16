@@ -1,4 +1,5 @@
 dir=${APPDIR:-"$HOME/applications"}
+dotdir=${DOTFILEDIR:-"$HOME/.dotfiles/"}
 app="mixingstation"
 url=""https://mixingstation.app/backend/api/web/download/update/mixing-station-pc/release
 format="zip"
@@ -34,9 +35,9 @@ fi
 
 mv /tmp/$app-download/* "$dir/$app/"
 
-if [ -f $DOTFILEDIR/launch/$app/generatedesktop.sh ] && [ ! -f $dir/shortcuts/$app.desktop ]
+if [ -f $dotdir/launch/$app/generatedesktop.sh ] && [ ! -f $dir/shortcuts/$app.desktop ]
 then
-  sh "$DOTFILEDIR/launch/$app/generatedesktop.sh"
+  sh "$dotdir/launch/$app/generatedesktop.sh"
 fi
 
 if [ $executable ] && [ ! -f $dir/bin/$executable ]
