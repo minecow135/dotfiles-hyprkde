@@ -2,6 +2,7 @@ dir=${APPDIR:-"$HOME/applications"}
 app="discord"
 url="https://discord.com/api/download?platform=linux&format=tar.gz"
 format="tar.gz"
+executable=Discord
 
 if [ -d $dir/$app ]
 then
@@ -24,6 +25,11 @@ mv /tmp/$app-download/** "$dir/$app/"
 if [ -f $DOTFILEDIR/launch/$app/generatedesktop.sh ] && [ ! -f $dir/shortcuts/$app.desktop ]
 then
   sh "$DOTFILEDIR/launch/$app/generatedesktop.sh"
+fi
+
+if [ ! -f $dir/bin/$executable ]
+then
+  ln -s "$dir/$app/$executable" $dir/bin/$app
 fi
 
 rm -rf /tmp/$app.$format
