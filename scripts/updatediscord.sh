@@ -1,5 +1,13 @@
-dir=../install/parts/apps
+dir=${DOTFILEDIR:-$HOME/.dotfiles}/install/parts/apps
+appdir=${APPDIR:-$HOME/applications}
 
-sh $dir/162_discord.sh
-sh $dir/163_betterdiscord.sh
+betterdiscord=$appdir/betterdiscord
 
+$pwd=$PWD
+
+sh $dir/161_discord.sh
+
+cd $betterdiscord
+pnpm inject
+
+cd $pwd

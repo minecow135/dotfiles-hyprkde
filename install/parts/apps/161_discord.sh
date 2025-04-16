@@ -21,9 +21,9 @@ tar -xvzf "/tmp/$app.$format" -C "/tmp/$app-download/"
 
 mv /tmp/$app-download/** "$dir/$app/"
 
-if [ -f $DOTFILEDIR/launch/$app/$app.desktop ] && [ ! -f $dir/shortcuts/$app.desktop ]
+if [ -f $DOTFILEDIR/launch/$app/generatedesktop.sh ] && [ ! -f $dir/shortcuts/$app.desktop ]
 then
-  cp "$DOTFILEDIR/launch/$app/$app.desktop" $dir/shortcuts/
+  sh "$DOTFILEDIR/launch/$app/generatedesktop.sh"
 fi
 
 rm -rf /tmp/$app.$format
