@@ -5,6 +5,11 @@ dir=${DOTFILEDIR:-"$HOME/.dotfiles/"}
 appDir=$dir/install/parts/apps/install/
 InstalledDir=$dir/install/parts/installedApps/install/
 
+if [ ! -d $InstalledDir ]
+then
+  mkdir -p $InstalledDir
+fi
+
 for file in $appDir*
 do   
   if [ -f "$file" ]
