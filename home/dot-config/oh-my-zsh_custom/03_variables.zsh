@@ -1,0 +1,2 @@
+export DOTFILEDIR="$HOME/.dotfiles/"
+
