@@ -6,6 +6,7 @@ alias mkdir='mkdir -p'
 
 alias cls='clear'
 
+alias v='nvim .'
 alias vi='nvim'
 alias svi='sudo nvim'
 alias vis='nvim "+set si"'
