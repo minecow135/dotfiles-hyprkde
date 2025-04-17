@@ -16,11 +16,7 @@ alias ip='ip -c'
 
 alias fetch='hyfetch'
 
-
 # Change directory aliases
-alias c='cd'
-alias home='cd ~'
-alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
