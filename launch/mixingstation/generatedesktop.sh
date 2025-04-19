@@ -1,7 +1,7 @@
 dir=${APPDIR:-$HOME/applications}
 dotdir=${DOTFILEDIR:-$HOME/.dotfiles}
 
-cat >$dir/shortcuts/discord.desktop <<EOF
+cat >$dir/shortcuts/mixingstation.desktop <<EOF
 [Desktop Entry]
 
 Type=Application
